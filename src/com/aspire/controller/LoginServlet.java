@@ -34,6 +34,7 @@ public class LoginServlet {
 	public ModelAndView login(HttpServletRequest request, HttpServletResponse response,
 			@ModelAttribute("login") Login login) {
 		System.out.println("Hello");
+		System.out.println("K cha");
 		ModelAndView mav = new ModelAndView("welcome");
 		return mav;
 
